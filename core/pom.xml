@@ -19,11 +19,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.mydemosite</groupId>
-        <artifactId>aem-mydemosite-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <artifactId>mydemosite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
-    <artifactId>aem-mydemosite-project.core</artifactId>
+    <artifactId>mydemosite.core</artifactId>
     <name>My Demo Site - Core</name>
     <description>Core bundle for My Demo Site</description>
     <build>
@@ -121,6 +121,11 @@ Import-Package: javax.annotation;version=0.0.0,*
         <dependency>
             <groupId>io.wcm</groupId>
             <artifactId>io.wcm.testing.aem-mock.junit5</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.sling</groupId>
+            <artifactId>org.apache.sling.testing.caconfig-mock-plugin</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>

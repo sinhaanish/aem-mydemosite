@@ -23,15 +23,15 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.mydemosite</groupId>
-        <artifactId>aem-mydemosite-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <artifactId>mydemosite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>aem-mydemosite-project.ui.frontend</artifactId>
+    <artifactId>mydemosite.ui.frontend</artifactId>
     <packaging>pom</packaging>
     <name>My Demo Site - UI Frontend</name>
 

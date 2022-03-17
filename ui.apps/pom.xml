@@ -22,15 +22,15 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.mydemosite</groupId>
-        <artifactId>aem-mydemosite-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <artifactId>mydemosite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>aem-mydemosite-project.ui.apps</artifactId>
+    <artifactId>mydemosite.ui.apps</artifactId>
     <packaging>content-package</packaging>
     <name>My Demo Site - UI apps</name>
     <description>UI apps package for My Demo Site</description>
@@ -52,12 +52,12 @@
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
                     <group>com.mydemosite</group>
-                    <name>aem-mydemosite-project.ui.apps</name>
+                    <name>mydemosite.ui.apps</name>
                     <packageType>application</packageType>
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.mydemosite</groupId>
-                            <artifactId>aem-mydemosite-project.ui.apps.structure</artifactId>
+                            <artifactId>mydemosite.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                     <dependencies>
@@ -108,20 +108,20 @@
     <dependencies>
         <dependency>
             <groupId>com.mydemosite</groupId>
-            <artifactId>aem-mydemosite-project.core</artifactId>
+            <artifactId>mydemosite.core</artifactId>
             <version>${project.version}</version>
         </dependency>
 
         <dependency>
             <groupId>com.mydemosite</groupId>
-            <artifactId>aem-mydemosite-project.ui.frontend</artifactId>
+            <artifactId>mydemosite.ui.frontend</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
 
         <dependency>
             <groupId>com.mydemosite</groupId>
-            <artifactId>aem-mydemosite-project.ui.apps.structure</artifactId>
+            <artifactId>mydemosite.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

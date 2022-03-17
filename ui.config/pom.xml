@@ -22,15 +22,15 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.mydemosite</groupId>
-        <artifactId>aem-mydemosite-project</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <artifactId>mydemosite</artifactId>
+        <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>aem-mydemosite-project.ui.config</artifactId>
+    <artifactId>mydemosite.ui.config</artifactId>
     <packaging>content-package</packaging>
     <name>My Demo Site - UI config</name>
     <description>UI config package for My Demo Site</description>
@@ -54,7 +54,7 @@
                     <repositoryStructurePackages>
                         <repositoryStructurePackage>
                             <groupId>com.mydemosite</groupId>
-                            <artifactId>aem-mydemosite-project.ui.apps.structure</artifactId>
+                            <artifactId>mydemosite.ui.apps.structure</artifactId>
                         </repositoryStructurePackage>
                     </repositoryStructurePackages>
                 </configuration>
@@ -69,7 +69,7 @@
     <dependencies>
         <dependency>
             <groupId>com.mydemosite</groupId>
-            <artifactId>aem-mydemosite-project.ui.apps.structure</artifactId>
+            <artifactId>mydemosite.ui.apps.structure</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
